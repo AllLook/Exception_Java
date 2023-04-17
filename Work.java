@@ -46,9 +46,9 @@ public class Work {
 
     public static Integer[] divArray(Integer[] array1, Integer[] array2) {
         if (array1.length == array2.length) {
-            Integer[] resArr = new Integer[array1.length];// если первый меньше второго
+            Integer[] resArr = new Integer[array1.length];
             for (int i = 0; i < array1.length; i++) {
-                // for (int j = 0; j < array2.length; j++) {
+
                 int result = array1[i] - array2[i];
                 resArr[i] = result;
             }
