@@ -11,7 +11,7 @@ public class Work {
     static Integer[] array2 = { 5, 5, 5, 5, 5 };
 
     public static void main(String[] args) throws IllegalAccessException, IOException {
-        File file = new File("C:/Users/Lex/Desktop/exception_java\file.txt");
+        File file = new File("C:/Users/Lex/Desktop/exception_java/file.txt");
         // System.out.println(devision(5, 0));
         // System.out.println(fileLength(file));
         // fileRead(file);
